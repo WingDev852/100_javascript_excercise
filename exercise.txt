@@ -1,0 +1,164 @@
+# 100 JavaScript Oefeningen voor Beginners 
+Een verzameling oefeningen, opgedeeld per niveau en onderwerp. Begin 
+bovenaan en werk je omhoog — elke sectie bouwt voort op de vorige. --- 
+
+## 1. Variabelen & Datatypes (1-10) 
+1. Maak een variabele `naam` met je eigen naam en print deze met 
+`console.log`. 
+2. Maak twee variabelen `leeftijd` en `geboortejaar` en bereken het 
+huidige jaar op basis daarvan. 
+3. Gebruik `typeof` om het type te printen van: een getal, een string, 
+een boolean, en `undefined`. 
+4. Maak een variabele met `const` en probeer deze te overschrijven. Wat 
+gebeurt er? 
+5. Zet een string-getal (`"42"`) om naar een echt getal met `Number()`. 
+6. Zet een getal om naar een string met `String()` of `.toString()`. 
+7. Maak een template literal die je naam en leeftijd combineert in één 
+zin. 
+8. Wissel de waarden van twee variabelen om zonder een derde 
+hulpvariabele. 
+9. Print het resultaat van `5 + "5"` en `5 - "5"`. Verklaar het verschil. 
+10. Maak variabelen voor lengte en breedte van een rechthoek en bereken 
+de oppervlakte. 
+
+## 2. Operatoren & Rekenen (11-20) 
+11. Schrijf een script dat de rest berekent van 17 gedeeld door 5 (`%`). 
+12. Bereken of een getal even of oneven is met de modulo-operator. 
+13. Gebruik `++` en `--` om een teller op te hogen en te verlagen. 
+14. Vergelijk `==` en `===` met de waarden `"5"` en `5`. Print beide 
+resultaten. 
+15. Schrijf een uitdrukking die controleert of een getal tussen 10 en 20 
+ligt. 
+16. Bereken de oppervlakte en omtrek van een cirkel met een gegeven 
+straal. 
+17. Zet graden Celsius om naar Fahrenheit met een formule. 
+18. Gebruik de `**` operator om een getal tot de macht 3 te verheffen. 
+19. Schrijf een uitdrukking met `&&` en `||` die twee condities 
+combineert. 
+20. Gebruik `!` om een boolean om te draaien. 
+## 3. If/Else & Condities (21-30) 
+21. Schrijf een if-statement dat print of een getal positief, negatief of 
+nul is. 
+22. Controleer of iemand mag stemmen (18 jaar of ouder). 
+23. Schrijf een FizzBuzz: print "Fizz" bij veelvoud van 3, "Buzz" bij 
+veelvoud van 5, "FizzBuzz" bij beide, anders het getal zelf (voor 1 t/m 
+20). 
+24. Bepaal met een if-else of een jaar een schrikkeljaar is. 
+25. Schrijf een switch-statement dat de naam van een weekdag print op 
+basis van een getal 1-7. 
+26. Controleer of een wachtwoord minstens 8 tekens lang is. 
+27. Schrijf een functie die het grootste van drie getallen teruggeeft. 
+28. Maak een simpele "leeftijdscategorie"-checker: kind, tiener, 
+volwassene, senior. 
+29. Gebruik een ternary operator om te checken of een getal even of 
+oneven is. 
+30. Schrijf een script dat controleert of een string leeg is. 
+## 4. Loops (31-42) 
+31. Print de getallen 1 t/m 10 met een `for`-loop. 
+32. Print alleen de even getallen tussen 1 en 20. 
+33. Bereken de som van alle getallen van 1 tot 100. 
+34. Print een tafel van vermenigvuldiging (bijv. de tafel van 7) met een 
+loop. 
+35. Gebruik een `while`-loop om af te tellen van 10 naar 0. 
+36. Gebruik een `do...while`-loop die minstens één keer uitvoert. 
+37. Print een driehoek van sterretjes met geneste loops (bijv. 5 rijen). 
+38. Bereken de faculteit van een getal (bijv. 5! = 120) met een loop. 
+39. Gebruik `break` om een loop te stoppen zodra een bepaald getal wordt 
+gevonden. 
+40. Gebruik `continue` om oneven getallen over te slaan in een loop. 
+41. Print alle getallen tussen 1 en 50 die deelbaar zijn door zowel 3 als 
+5. 
+42. Schrijf een loop die controleert of een getal een priemgetal is. 
+## 5. Strings (43-52) 
+43. Print de lengte van een string met `.length`. 
+44. Zet een string om naar hoofdletters en kleine letters. 
+45. Controleer of een string een bepaald woord bevat met `.includes()`. 
+46. Splits een zin in woorden met `.split(" ")`. 
+47. Voeg een array van woorden weer samen tot een zin met `.join(" ")`. 
+48. Verwijder spaties aan het begin/einde van een string met `.trim()`. 
+49. Controleer of een woord een palindroom is (zoals "lepel"). 
+50. Tel hoeveel keer een letter voorkomt in een string. 
+51. Vervang een woord in een zin door een ander woord met `.replace()`. 
+52. Draai een string om (bijv. "hallo" wordt "ollah"). 
+## 6. Arrays (53-65) 
+53. Maak een array met 5 favoriete films en print deze. 
+54. Voeg een nieuw element toe aan het einde van een array met `.push()`. 
+55. Verwijder het laatste element van een array met `.pop()`. 
+56. Loop door een array heen met een `for`-loop en print elk element. 
+57. Gebruik `.forEach()` om elk element van een array te printen. 
+58. Gebruik `.map()` om alle getallen in een array te verdubbelen. 
+59. Gebruik `.filter()` om alleen de even getallen uit een array te 
+halen. 
+60. Gebruik `.reduce()` om de som van alle getallen in een array te 
+berekenen. 
+61. Zoek de hoogste waarde in een array met `Math.max()` en de spread
+operator. 
+62. Sorteer een array van getallen van laag naar hoog met `.sort()`. 
+63. Controleer of een array een bepaalde waarde bevat met `.includes()`. 
+64. Vind de index van een element in een array met `.indexOf()`. 
+65. Maak een nieuwe array die alleen unieke waarden bevat (verwijder 
+duplicaten). 
+## 7. Objecten (66-75) 
+66. Maak een object `persoon` met eigenschappen `naam`, `leeftijd` en 
+`stad`. 
+67. Print één eigenschap van een object met puntnotatie en met 
+haakjesnotatie. 
+68. Voeg een nieuwe eigenschap toe aan een bestaand object. 
+69. Verwijder een eigenschap uit een object met `delete`. 
+70. Loop door alle eigenschappen van een object met `for...in`. 
+71. Maak een array van objecten (bijv. 3 personen) en print elk naam. 
+72. Gebruik `Object.keys()` om alle keys van een object te printen. 
+73. Gebruik `Object.values()` om alle waarden van een object te printen. 
+74. Schrijf een functie die een object als parameter krijgt en een 
+eigenschap teruggeeft. 
+75. Maak een object met een methode (functie als eigenschap), bijv. 
+`zegHallo()`. 
+## 8. Functies (76-85) 
+76. Schrijf een functie `optellen(a, b)` die twee getallen optelt. 
+77. Schrijf dezelfde functie als een arrow function. 
+78. Geef een functie een standaardwaarde voor een parameter. 
+79. Schrijf een functie die controleert of een getal groter is dan een 
+ander getal. 
+80. Schrijf een functie die een array krijgt en het gemiddelde 
+teruggeeft. 
+81. Schrijf een functie die een willekeurig getal teruggeeft tussen twee 
+grenzen. 
+82. Maak een functie die een andere functie als argument accepteert 
+(callback). 
+83. Schrijf een functie met een "rest parameter" (`...getallen`) die 
+alles optelt. 
+84. Maak een functie die een string omzet naar "Titel Casing" (elke woord 
+met hoofdletter). 
+85. Schrijf een recursieve functie die de faculteit van een getal 
+berekent. 
+## 9. DOM & Events (voor in de browser) (86-93) 
+86. Selecteer een HTML-element met `document.querySelector()` en verander 
+de tekst ervan. 
+87. Verander de achtergrondkleur van een element via JavaScript. 
+88. Voeg een klik-event toe aan een knop die een alert toont. 
+89. Maak een teller die omhoog gaat elke keer dat je op een knop klikt. 
+90. Verander de inhoud van een `<div>` op basis van tekst uit een 
+`<input>`-veld. 
+91. Toon of verberg een element met `.style.display` wanneer op een knop 
+wordt geklikt. 
+92. Maak een simpele to-do lijst: voeg items toe aan een `<ul>` via een 
+`<input>` en knop. 
+93. Verander de kleur van tekst willekeurig bij elke klik op een knop. 
+## 10. Mini-projecten & Combinatie-oefeningen (94-100) 
+94. Bouw een eenvoudige rekenmachine (optellen, aftrekken, 
+vermenigvuldigen, delen) als functie. 
+95. Bouw een "raad het getal"-spel: de computer kiest een getal tussen 1
+100, de gebruiker raadt via `prompt()`. 
+96. Maak een BMI-calculator die lengte en gewicht als input neemt. 
+97. Bouw een simpele "steen, papier, schaar"-spel tegen de computer. 
+98. Maak een functie die controleert of een ingevoerd wachtwoord sterk 
+genoeg is (lengte, cijfer, hoofdletter). 
+99. Bouw een woordenteller: geef een zin en print hoeveel woorden, 
+letters en spaties erin zitten. 
+100. Combineer meerdere concepten: maak een klein "boodschappenlijst"
+programma met een array van objecten (`{naam, prijs}`), en bereken de 
+totale prijs met `.reduce()`. --- 
+### Tips om te oefenen - Probeer elke oefening eerst zelf, zonder te googelen. - Test je code direct in de browserconsole (F12) of op een site als 
+[replit.com](https://replit.com) of [codepen.io](https://codepen.io). - Loop je vast? Print tussenresultaten met `console.log()` om te zien wat 
+er misgaat. - Herhaal oefeningen na een paar dagen zonder naar je oude oplossing te 
+kijken. 
